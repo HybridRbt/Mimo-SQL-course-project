@@ -4,3 +4,9 @@ CREATE TABLE books {
   title VARCHAR(20),
   available BOOLEAN
 };
+INSERT INTO books
+VALUES ('123', '1984', TRUE),
+       ('456', 'The Great Gatsby', TRUE);
+SELECT title
+FROM books
+WHERE title LIKE 'The%';
