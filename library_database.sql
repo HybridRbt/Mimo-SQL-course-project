@@ -10,3 +10,7 @@ VALUES ('123', '1984', TRUE),
 SELECT title
 FROM books
 WHERE title LIKE 'The%';
+
+SELECT *
+FROM books
+WHERE read = FALSE;
