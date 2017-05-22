@@ -14,3 +14,7 @@ WHERE title LIKE 'The%';
 SELECT *
 FROM books
 WHERE read = FALSE;
+
+SELECT title
+FROM books
+WHERE title NOT LIKE 'The%';
