@@ -18,3 +18,6 @@ WHERE read = FALSE;
 SELECT title
 FROM books
 WHERE title NOT LIKE 'The%';
+
+SELECT MIN(LENGTH(title))
+FROM books;
