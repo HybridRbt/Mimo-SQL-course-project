@@ -21,3 +21,6 @@ WHERE title NOT LIKE 'The%';
 
 SELECT MIN(LENGTH(title))
 FROM books;
+
+ALTER TABLE
+  ALTER COLUMN id set PRIMARY KEY;
